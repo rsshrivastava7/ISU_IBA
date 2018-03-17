@@ -133,7 +133,7 @@ body{
 .IBA-menu{
     background-color: #555;
 }   
-.Section-Images {
+.section-images {
     
     background-color: #000;
     border:2px solid #000;
@@ -153,12 +153,12 @@ body{
 
 /*Introduction*/
 
-.Section-intro{
+.section-intro{
     background-color: #e2e0e0;
     padding: 10px;
 }
 
-.Intro-header{
+.intro-header{
     text-align: center;
     padding: 10px;
     font-weight: 400;
@@ -177,4 +177,23 @@ section div p{
     width: 100%;
     height: 500px;
 
+}
+
+
+
+/* Events*/
+
+
+.event-box{
+    border: 1px solid #000;
+    text-align: center;
+}
+
+
+
+
+/* Member*/
+.member-box{
+    border: 1px solid #000;
+    text-align: center;
 }
