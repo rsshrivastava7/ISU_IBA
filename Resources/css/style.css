@@ -245,3 +245,32 @@ section div p {
 
 
 /----------/
+.footer_sec1 {
+    text-align:left;
+}
+
+.footer_sec1_div1 {
+    padding: 10px 10px 10px 10px;
+}
+
+.footer_list {
+    list-style-type: none;
+    text-decoration: underline
+}
+.footer_list li a:link,
+.footer_list li a:visited {
+    padding: 8px 0;
+    color:red;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight:500;
+    font-size: 90%;
+}
+
+.footer_list li a:hover,
+.footer_list li a:active {
+
+    color: #a80f0f;
+}
+
+
