@@ -2,7 +2,7 @@
 .activies-banner {
     background-image: url("/Resources/images/activities-banner-6.jpg");
     width: 100%;
-    height: 300px;
+    height: 400px;
 }
 
 .event-row{
@@ -32,4 +32,23 @@
     left: 16px;
     font-weight: 800;
     font-size:16pt;
+}
+=========================================
+/*********Graduate Program**************/
+
+.gradProg {
+    box-sizing: border-box;
+}
+
+.gradProgCol {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+/* Clear floats after the columns */
+.gradProgRow:after {
+    content: "";
+    display: table;
+    clear: both;
 }
