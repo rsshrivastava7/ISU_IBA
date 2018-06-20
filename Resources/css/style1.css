@@ -144,3 +144,15 @@ h3:after{
     font-weight: 400;
     margin-bottom: 1.5%;
 }
+
+
+.about-box h3{
+    text-align: center;
+    font-size: 110%;
+    margin-bottom: 1px;
+
+}
+.about-box h3:after{
+    background-color: #fff;
+    content: none;
+}
