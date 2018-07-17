@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="Resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="Resources/css/style1.css">
+    <link rel="stylesheet" type="text/css" href="Resources/css/style-activities.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,300italic" rel="stylesheet" type="text/css">
+    <title>Biomathematica Alliance for Scholarship Teaching and Advance Research Development| Journals</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="row">
+            <a href="https://illinoisstate.edu/"><img class="logo" src="Resources/images/ISU%20Logo_1.png" alt="ISU Logo"/></a>
+            <nav class="main-nav">
+                <ul class="ISU-menu">
+                    <div class="col">
+                        <li><a href="https://giving.illinoisstate.edu/">Giving</a></li>
+                        <li><a href="https://news.illinoisstate.edu/">News</a></li>
+                        <li><a href="https://events.illinoisstate.edu/">Events</a></li>
+                        <li><a href="https://maps.illinoisstate.edu">Map</a></li>
+                        <li><a href="https://illinoisstate.edu/apply/">Apply</a></li>
+                        <li><a href="https://search.illinoisstate.edu/?utm_source=about.illinoisstate.edu&utm_medium=iguide&utm_campaign=iguide+usage">Search/A-Z</a></li>
+                    </div>
+                    <li><a href="https://my.illinoisstate.edu/"><img class="my_ilstu" src="Resources/images/my-red-dark.png"></a></li>
+
+
+                </ul>
+            </nav>
+        </div>
+        <div class="IBA-header">
+            <a href="#"><img class="logo-2" src="Resources/images/IBA-logo2.png" alt="IBA Logo" /></a>
+
+        </div>
+
+        <div class="IBA-menu" id="IBA-header">
+            <nav class="main-nav-2">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index1.html">About Us</a></li>
+                    <li><a href="activities.html">Activities</a></li>
+                    <li><a href="">Programs</a></li>
+                    <!--<li><a href=""><img class="logo-2" src="Resources/images/ISU%20logo.png"></a></li>-->
+                    <li><a href="">IBA Resources</a></li>
+                    <li><a href="">BEER</a></li>
+                    <li><a href="">Journals</a></li>
+                    <li><a href="">IBA Graduate Programs</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <div class="content">
+        <section>
+            <div class="activies-banner">
+            </div>
+
+
+            <div><br>
+                <h2>Welcome to IBA</h2>
+                <p class="long-copy">The Intercollegiate Biomathematics Alliance (IBA) offers a flexible graduate curriculum in mathematical biology. The IBA is a consortium of collaborating academic institutions organized under the Center for Collaborative Studies in Mathematical Biology, which is a recognized center of the Illinois Board of Higher Education. With offerings through different options, both online and traditional coursework, students have a variety of options for obtaining a certificate in this program. For example, students interested in applying to an M.S. program in mathematical biology at an IBA institution may desire to complete traditional coursework for transferable credits. On the other hand, students interested in a career in industry or interested in strengthening their background for further studies in mathematical biology may instead wish to exclusively complete online coursework, which leads to a different certification in mathematical biology.
+                </p>
+            </div>
+        </section>
+
+        <section class="gradProg">
+            <div class="gradProgRow">
+                <div class="gradProgCol" style="width: 40%">
+                    <img src="Resources/images/BEER.jpg" style="width:100%;height:100%">
+                </div>
+                <div class="gradProgCol" style="width: 60%">
+                    <h3>Who should apply?</h3>
+                    <p>This program will interest students who would like to strengthen their background before applying to a graduate program in mathematical biology. Students can use a certificate either as a stand-alone achievement or to enhance a graduate degree in a related field. This program is also designed with working professionals in mind, offering the flexibility and convenience of online and/or traditional coursework in a graduate program.
+                    </p>
+                </div>
+            </div>
+            <div class="gradProgRow">
+                <div class="gradProgCol" style="width: 60%">
+                    <h3>Who is eligible?</h3>
+                    <p>Students enrolled at an IBA member institution are automatically eligible to apply for this program. Any students not already enrolled at an IBA institution will need to obtain an individual student membership, which is integrated into the application process.
+                    </p>
+                </div>
+                <div class="gradProgCol" style="width: 40%">
+                    <img src="Resources/images/BEER.jpg" style="width:100%;height:100%">
+                </div>
+            </div>
+            <div class="gradProgRow">
+                <div class="gradProgCol" style="width: 40%">
+                    <img src="Resources/images/BEER.jpg" style="width:100%;height:100%">
+                </div>
+                <div class="gradProgCol" style="width: 60%">
+                    <h3>What are the requirements?</h3>
+                    <p>Students are required to successfully complete coursework from each of four emphasis areas. Depending on the chosen certificate type, the student may need to complete a capstone project. Such a project must be completed under the direction of an IBA graduate advisor. The list of courses can be found in the course catalog, but includes both online and traditional course options.
+                    </p>
+                </div>
+            </div>
+            <div class="gradProgRow">
+                <div class="gradProgCol" style="width: 60%">
+                    <h3>What sequences are available?</h3>
+                    <p>There are various options for completing a graduate certificate at the IBA. Students can choose any track that fits their interests and long-term goals. Here is a good starting point.
+                    </p>
+                </div>
+                <div class="gradProgCol" style="width: 40%">
+                    <img src="Resources/images/BEER.jpg" style="width:100%;height:100%">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        window.onscroll = function() {
+            myFunction()
+        };
+
+        var header = document.getElementById("IBA-header");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+
+    </script>
+</body>
+
+</html>
