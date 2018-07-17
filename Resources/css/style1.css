@@ -46,24 +46,121 @@ h2:after{
     margin: 0 auto;
     margin-top: 30px;
 }
+
+h3{
+    font-size: 140%;
+    word-spacing: 1px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+h3:after{
+    display: block;
+    height: 2px;
+    background-color: #49ef00;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
 .long-copy
 {
     line-height: 145%;
     width: 80%;
     margin-left: 10%;
 }
-
+.section-parts{
+    color: #fff;
+}
 .section-about{
     margin: 20px;
 }
-.people-box{
+.about-box{
+    position: relative;
+    text-align: center;
     background-color: #fff;
-    border: 5px;
+    border: 1px solid #000;
     width: 90%;
+    height: 400px;
     margin-left: 5%;
-    box-shadow: 0 2px 2px #efefef;
 }
 
-.people-box div{
-    padding: 15px;
-    border-bottom: 1px solid #e8e8e8;
+.about-box h3{
+    font-weight: 600;
+}
+.about-box div{
+    padding-top: 15px;
+    padding-left: 15px;
+    font-weight: 400;
+}
+.about-box img{
+    width: 100%;
+    height: 400px;
+}
+.about-text {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    color: #656060
+}
+
+.section-about ul{
+    margin-left: 20%;
+    line-height: 150%;
+}
+.section-about-mentors{
+    margin-left: 16%;
+}
+.research-mentors{
+    display: flex;
+    margin-top: 1%;
+}
+.research-mentors img{
+    width: 110px;
+    height: 80px;
+    margin-top: 2.5%;
+
+}
+.research-mentors p{
+    width: 100%;
+    text-align: left;
+    margin-left: 2%;
+    margin-right: 0.5%;
+    margin: 2% 0.5% 5% 2%;
+    border-bottom: 0.5px solid #888;
+}
+
+.section-about-mentors div {
+    margin-top: 5px;
+    width: 90%;
+    height: 255px;
+}
+.section-about-mentors a{
+    color: #000;
+    text-decoration: none;
+}
+.section-about h4{
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 1.5%;
+}
+
+
+.about-box h3{
+    text-align: center;
+    font-size: 110%;
+    margin-bottom: 1px;
+
+}
+.about-box h3:after{
+    background-color: #fff;
+    content: none;
+}
+.form{
+    color: #b70101;
+    text-decoration: none;
+    margin-left: 2%;
+    font-weight: 600;
+
+}

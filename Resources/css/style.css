@@ -40,9 +40,9 @@ body {
 /*----------------------------------------*/
 
 .row {
-    background-color: #555;
+    background-color: #bab5b5;
     max-width:100%;
-    margin: 0 auto;
+    margin: 0;
 
 }
 
@@ -172,7 +172,6 @@ body {
 
 .section-intro {
     background-color: #e2e0e0;
-    padding: 10px;
 }
 
 .intro-header {
