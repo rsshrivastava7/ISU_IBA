@@ -15,7 +15,7 @@
 <body>
     <header>
 
-        <div class="row" >
+        <div class="row">
             <a href="https://illinoisstate.edu/"><img class="logo" src="Resources/images/ISU%20Logo_1.png" alt="ISU Logo"/></a>
             <nav class="main-nav">
                 <ul class="ISU-menu">
@@ -32,7 +32,7 @@
             </nav>
         </div>
         <div class="IBA-header">
-            <a href="#"><img class="logo-2" src="Resources/images/IBA-logo2.png" alt="IBA Logo" /></a>
+            <a href="#"><img class="logo-2" src="/Resources/images/IBA-logo2.png" alt="IBA Logo" /></a>
 
         </div>
 
@@ -55,41 +55,91 @@
     </header>
 
     <section>
-        <div class="activies-banner">
+        <div class="activies-banner" style="background-image: url(Resources/images/activities-banner-6.jpg)">
         </div><br>
         <div class="row" style="background-color: white">
             <h2>IBA Events</h2>
             <p class="long-copy">The IBA provides research and professional development opportunities for the biomathematics community at large via colloquia, workshops, retreats, tele-conferences, etc.</p>
         </div>
         <div class="event-row">
-            <div class="column">
+            <div class="column" onclick="openTab('b1');">
                 <img src="Resources/images/BEER.jpg" style="width:100%;height:100%">
                 <div class="bottom-left">BEER</div>
             </div>
-            <div class="column">
+            <div class="column" onclick="openTab('b2');">
                 <img src="Resources/images/CURE.jpg" style="width:100%;height:100%">
                 <div class="bottom-left">CURE</div>
             </div>
-            <div class="column">
+            <div class="column" onclick="openTab('b3');">
                 <img src="Resources/images/Conferences.jpg" style="width:100%;height:100%">
                 <div class="bottom-left">Conferences</div>
             </div>
         </div>
+        <div class="PopupTab">
+            <div id="b1" class="popupTab" style="display: none; transition: height 2s;">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                <h2>BEER</h2>
+                <p>BEER Details</p>
+            </div>
+            <div id="b2" class="popupTab" style="display: none">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                <h2>CURE</h2>
+                <p>CURE Details</p>
+            </div>
+            <div id="b3" class="popupTab" style="display: none">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                <h2>Conference</h2>
+                <p>Conference details</p>
+            </div>
+        </div>
         <div class="event-row">
-            <div class="column">
+            <div class="column" onclick="openTab('b4');">
                 <img src="Resources/images/CICO.jpg" style="width:100%;height:100%">
                 <div class="bottom-left">Faculty Research Retreats</div>
             </div>
-            <div class="column">
+            <div class="column" onclick="openTab('b5');">
                 <img src="Resources/images/FRR.jpg" style="width:100%;height:100%">
                 <div class="bottom-left">Cross-institutional Course Offerings</div>
             </div>
-            <div class="column">
+            <div class="column" onclick="openTab('b6');">
                 <img src="Resources/images/workshops.jpg" style="width:100%;height:100%">
                 <div class="bottom-left">Workshops</div>
             </div>
         </div>
+
+        <div class="PopupTab">
+
+
+
+            <div id="b4" class="popupTab" style="display: none">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                <h2>Faculty Retreats</h2>
+                <p>Faculty Retreats details</p>
+            </div>
+            <div id="b5" class="popupTab" style="display: none">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                <h2>CROSS Institution</h2>
+                <p>CROSS Institution details</p>
+            </div>
+            <div id="b6" class="popupTab" style="display: none">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                <h2>WorkShops</h2>
+                <p>WorkShops Details</p>
+            </div>
+        </div>
     </section>
+
+    <script>
+        function openTab(tabName) {
+            var i, x;
+            x = document.getElementsByClassName("popupTab");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            document.getElementById(tabName).style.display = "block";
+        }
+    </script>
+
 </body>
 
 </html>
