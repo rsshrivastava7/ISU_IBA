@@ -1,6 +1,6 @@
 .activies-banner {
     width: 100%;
-    height: 400px;
+    height: 60%;
 }
 
 .event-row {
@@ -16,7 +16,7 @@
 }
 
 .column {
-    padding: 1% 1% 0% 1%;
+    margin: 1% 1% 0% 1%;
     flex: 33.33%;
     box-sizing: border-box;
     position: relative;
@@ -119,4 +119,179 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+}
+
+/*****Home Page*******/
+
+.overlay {
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.72);
+}
+
+.column:hover .overlay {
+    opacity: .7;
+}
+
+.text {
+    color: white;
+    font-size: 20pt;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.top-left {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-weight: 800;
+    font-size: 12pt;
+}
+
+/******************************/
+
+.footer_divider {
+    border-top: 1px solid black;
+    height: 3em;
+    position: relative;
+    text-align: center;
+
+}
+
+.footer_divider::before {
+    background-color: white;
+    display: block;
+    left: 50%;
+    padding: 0 2%;
+    position: absolute;
+    top: -1.5rem;
+    transform: translateX(-50%);
+    content: url(/Resources/images/logo_icon.ico);
+
+}
+
+.footer_header {
+    padding-left: 3%;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: black;
+}
+
+.footer_list_items {
+    padding: 1% 1%;
+}
+
+.footer_list {
+    list-style-type: none;
+    text-decoration: underline;
+    padding: 2% 2%;
+}
+
+.footer_align {
+    padding: 1% 5% 1% 5%;
+}
+
+.fo {
+    padding: 1% 2% 1% 2%;
+    width: 10%;
+}
+
+.fo:hover {
+    opacity: 0.7;
+}
+
+.fo-facebook {
+    content: url(/Resources/images/Icon-Facebook.svg);
+}
+
+.fo-twitter {
+    content: url(/Resources/images/Icon-Twitter.svg);
+}
+
+.fo-youtube {
+    content: url(/Resources/images/Icon-YouTube.svg);
+}
+
+.fo-instagram {
+    content: url(/Resources/images/Icon-Insta.svg);
+}
+
+.fo-linkedin {
+    content: url(/Resources/images/Icon-LinkedIn.svg);
+}
+
+.fo_social {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+
+}
+
+.line_hor {
+    width: 50%;
+    height: 50%;
+    border-top: 2px solid red;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    text-align: center;
+    padding-top: 5%;
+
+
+}
+
+.line_hor::before {
+
+    font: 25pt bold sans-serif;
+    font-weight: 900;
+    background: url(//cdn.illinoisstate.edu/special/patterns/squares-neutral.jpg) repeat 0 0;
+    display: block;
+    width: 70%;
+    left: 50%;
+    position: absolute;
+    padding: 0%;
+    top: -1rem;
+    transform: translateX(-50%);
+    content: "Become IBA member";
+
+}
+
+
+.ourLogo {
+    height: 380px;
+    margin: 6%;
+}
+
+.ourLogo_logo {
+    width: 30%;
+    margin: 0%;
+}
+.ourLogo_logo img{
+    width: 100%;
+    top: 50%;
+}
+
+.ourLogo_detail {
+    background-color: antiquewhite;
+    width: 70%;
+    height: inherit;
+    margin: 0%;
+}
+
+.memBtn {
+    margin: 2.4%; 
 }
